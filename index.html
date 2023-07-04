@@ -13,6 +13,9 @@
         <script>
             function display(){
                 var display = document.getElementById("name").value;
+                if (display==""){
+                    alert("Enter a value");
+                }
                 alert("you have entered" + display);
             }
            
