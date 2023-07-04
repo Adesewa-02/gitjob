@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>document</title>
+    </head>
+    <body>
+        <h1>this is my web page...</h1>
+        <br>
+        <input type="text" id="name" placeholder="enter something here...">
+        <button onclick="display()">submit</button>
+        <script>
+            function display(){
+                var display = document.getElementById("name").value;
+                alert("you have entered" + display);
+            }
+           
+        </script>
+        </body>
+</html>
